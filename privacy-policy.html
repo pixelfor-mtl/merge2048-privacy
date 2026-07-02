@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Merge 2048: Number Puzzle</title>
+<style>
+  :root {
+    --bg: #1c1a23;
+    --panel: #242230;
+    --text: #ece7e0;
+    --muted: #a89f97;
+    --accent: #f0a24a;
+    --accent-soft: #3a2f22;
+    --rule: #363144;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  .tile {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #f0a24a, #e2683f);
+    color: #1c1a23;
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 18px;
+  }
+  h1 {
+    font-size: 26px;
+    letter-spacing: -0.01em;
+    margin: 0 0 6px;
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 28px;
+  }
+  .langbar {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 36px;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 20px;
+  }
+  .langbtn {
+    background: transparent;
+    border: 1px solid var(--rule);
+    color: var(--muted);
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+  }
+  .langbtn.active {
+    background: var(--accent-soft);
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+  h2 {
+    font-size: 16px;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 32px 0 10px;
+  }
+  p { color: var(--text); margin: 0 0 14px; }
+  a { color: var(--accent); }
+  .content { display: none; }
+  .content.active { display: block; }
+  .placeholder {
+    background: var(--accent-soft);
+    color: var(--accent);
+    padding: 1px 5px;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  footer {
+    margin-top: 40px;
+    border-top: 1px solid var(--rule);
+    padding-top: 18px;
+    color: var(--muted);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="tile">P</div>
+
+  <div class="langbar">
+    <button class="langbtn active" data-lang="en" onclick="setLang('en')">English</button>
+    <button class="langbtn" data-lang="tr" onclick="setLang('tr')">Türkçe</button>
+    <button class="langbtn" data-lang="da" onclick="setLang('da')">Dansk</button>
+  </div>
+
+  <!-- ENGLISH -->
+  <div class="content active" id="en">
+    <h1>Privacy Policy</h1>
+    <div class="updated">Merge 2048: Number Puzzle · Last updated: July 2, 2026</div>
+
+    <p>Pixelfor ("we", "us", or "our") operates the mobile application Merge 2048: Number Puzzle (the "App"). This Privacy Policy explains how we handle information when you use the App.</p>
+
+    <h2>Information We Collect</h2>
+    <p>The App does not require you to create an account or provide personal information such as your name or email address to play.</p>
+    <p>To support the App with advertising, we use Google AdMob, which may collect certain device information, including your advertising identifier (Advertising ID), to serve and personalize ads and measure ad performance.</p>
+
+    <h2>Third-Party Services</h2>
+    <p>The App uses Google AdMob to display advertisements. Google's data collection and use practices are governed by Google's own Privacy Policy, available at <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>.</p>
+    <p>You can review and manage your ad personalization settings through your device's settings.</p>
+
+    <h2>Data Security</h2>
+    <p>We do not directly collect or store personal data on our own servers. Any data processed through third-party services (such as AdMob) is handled according to those providers' own privacy practices.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>The App is not directed at children under the age of 13, and we do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us so we can address it.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have questions about this Privacy Policy, contact us at <span class="placeholder">your-email@example.com</span>.</p>
+  </div>
+
+  <!-- TURKISH -->
+  <div class="content" id="tr">
+    <h1>Gizlilik Politikası</h1>
+    <div class="updated">Merge 2048: Number Puzzle · Son güncelleme: 2 Temmuz 2026</div>
+
+    <p>Pixelfor ("biz" veya "bizim"), Merge 2048: Number Puzzle ("Uygulama") adlı mobil uygulamayı işletmektedir. Bu Gizlilik Politikası, Uygulamayı kullandığınızda bilgilerinizi nasıl işlediğimizi açıklar.</p>
+
+    <h2>Topladığımız Bilgiler</h2>
+    <p>Uygulamayı oynamak için hesap oluşturmanız ya da isim, e-posta gibi kişisel bilgiler paylaşmanız gerekmez.</p>
+    <p>Uygulamayı reklamlarla desteklemek için Google AdMob kullanıyoruz; bu hizmet, reklamları göstermek, kişiselleştirmek ve performansını ölçmek amacıyla reklam kimliğiniz (Advertising ID) gibi bazı cihaz bilgilerini toplayabilir.</p>
+
+    <h2>Üçüncü Taraf Hizmetleri</h2>
+    <p>Uygulama, reklam göstermek için Google AdMob kullanır. Google'ın veri toplama ve kullanım uygulamaları, Google'ın kendi Gizlilik Politikası'na tabidir: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>.</p>
+    <p>Reklam kişiselleştirme ayarlarınızı cihazınızın ayarlarından inceleyip yönetebilirsiniz.</p>
+
+    <h2>Veri Güvenliği</h2>
+    <p>Kişisel verileri doğrudan kendi sunucularımızda toplamıyor ya da saklamıyoruz. Üçüncü taraf hizmetler (AdMob gibi) aracılığıyla işlenen veriler, ilgili sağlayıcıların gizlilik uygulamalarına göre işlenir.</p>
+
+    <h2>Çocukların Gizliliği</h2>
+    <p>Uygulama, 13 yaş altı çocukları hedeflememektedir ve bilerek çocuklardan kişisel bilgi toplamamaktayız. Bir çocuğun bize kişisel bilgi verdiğini düşünüyorsanız, lütfen bizimle iletişime geçin.</p>
+
+    <h2>Bu Politikadaki Değişiklikler</h2>
+    <p>Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Değişiklikler bu sayfada güncellenmiş tarihle birlikte yayımlanacaktır.</p>
+
+    <h2>Bize Ulaşın</h2>
+    <p>Bu Gizlilik Politikası hakkında sorularınız için bize ulaşabilirsiniz: <span class="placeholder">your-email@example.com</span>.</p>
+  </div>
+
+  <!-- DANISH -->
+  <div class="content" id="da">
+    <h1>Privatlivspolitik</h1>
+    <div class="updated">Merge 2048: Number Puzzle · Senest opdateret: 2. juli 2026</div>
+
+    <p>Pixelfor ("vi", "os" eller "vores") driver mobilapplikationen Merge 2048: Number Puzzle ("Appen"). Denne privatlivspolitik forklarer, hvordan vi håndterer oplysninger, når du bruger Appen.</p>
+
+    <h2>Oplysninger, vi indsamler</h2>
+    <p>Du behøver ikke at oprette en konto eller give personlige oplysninger som navn eller e-mail for at spille Appen.</p>
+    <p>For at understøtte Appen med annoncer bruger vi Google AdMob, som kan indsamle visse enhedsoplysninger, herunder dit reklame-id (Advertising ID), for at vise og tilpasse annoncer samt måle annonceresultater.</p>
+
+    <h2>Tredjepartstjenester</h2>
+    <p>Appen bruger Google AdMob til at vise annoncer. Googles indsamling og brug af data er underlagt Googles egen privatlivspolitik, tilgængelig på <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>.</p>
+    <p>Du kan gennemgå og administrere dine indstillinger for annoncetilpasning via din enheds indstillinger.</p>
+
+    <h2>Datasikkerhed</h2>
+    <p>Vi indsamler eller opbevarer ikke direkte personoplysninger på vores egne servere. Data, der behandles via tredjepartstjenester (såsom AdMob), håndteres i henhold til disse udbyderes egne privatlivspraksisser.</p>
+
+    <h2>Børns privatliv</h2>
+    <p>Appen er ikke rettet mod børn under 13 år, og vi indsamler ikke bevidst personlige oplysninger fra børn. Hvis du mener, at et barn har givet os personlige oplysninger, bedes du kontakte os, så vi kan håndtere det.</p>
+
+    <h2>Ændringer af denne politik</h2>
+    <p>Vi kan opdatere denne privatlivspolitik fra tid til anden. Eventuelle ændringer vil blive offentliggjort på denne side med en opdateret revisionsdato.</p>
+
+    <h2>Kontakt os</h2>
+    <p>Har du spørgsmål til denne privatlivspolitik, kan du kontakte os på <span class="placeholder">your-email@example.com</span>.</p>
+  </div>
+
+  <footer>© 2026 Pixelfor. Merge 2048: Number Puzzle.</footer>
+</div>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('.content').forEach(el => el.classList.remove('active'));
+    document.getElementById(lang).classList.add('active');
+    document.querySelectorAll('.langbtn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.lang === lang);
+    });
+    document.documentElement.lang = lang;
+  }
+</script>
+
+</body>
+</html>
